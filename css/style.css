@@ -67,6 +67,9 @@ ol {
 
 .linkRest:hover {
   color: #2196f3;
+  border-bottom: 4px solid #2196f3;
+  border-radius: 4px;
+  padding-bottom: 28px;
 }
 
 .contact__list {
@@ -407,9 +410,6 @@ ol {
   width: 270px;
   height: 428px;
   background: #ffffff;
-  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
-    0px 2px 1px rgba(0, 0, 0, 0.2);
-  border-radius: 0px 0px 4px 4px;
 }
 
 .flexGraf {
@@ -432,7 +432,8 @@ ol {
   cursor: pointer;
 }
 
-.borderImgPortfolio:hover {
+.boderAl:hover {
+  border: 1px solid #eeeeee;
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
 }
@@ -444,15 +445,19 @@ ol {
   line-height: 28px;
   letter-spacing: 0.03em;
   color: #ffffff;
-  margin: 0;
-  padding: 24px 49px;
+  width: 370px;
+  transform: translatey(100%);
   position: relative;
-  top: -388px;
-  transition: transform 250ms ease;
+  padding-left: 24px;
+  padding-top: 49px;
+  padding-right: 45px;
 }
 
-.OnBox:hover {
-  transform: translatey(100%);
+.OnBoxTr:hover {
+  transform: translatey(0%);
+}
+
+.OnBoxTr {
   transition: transform 250ms ease;
 }
 
