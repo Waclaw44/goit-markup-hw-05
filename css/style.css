@@ -447,7 +447,7 @@ ol {
   color: #ffffff;
   width: 370px;
   transform: translatey(100%);
-  position: relative;
+  position: absolute;
   padding-left: 24px;
   padding-top: 49px;
   padding-right: 45px;
