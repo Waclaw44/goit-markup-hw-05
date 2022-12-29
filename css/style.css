@@ -7,7 +7,7 @@ ul,
 ol {
   list-style: none;
 }
-​a {
+a {
   text-decoration: none;
   color: inherit;
 }
@@ -63,6 +63,7 @@ ol {
   height: auto;
   text-decoration: none;
   margin-right: 46px;
+  transition: 0.2s;
 }
 
 .linkRest:hover {
@@ -101,6 +102,7 @@ ol {
 .email:hover .telTopSvg .svgcolorTop {
   fill: #2196f3;
 }
+
 .tel:hover,
 .email:hover {
   color: #2196f3;
@@ -123,6 +125,7 @@ ol {
   color: #757575;
   text-decoration: none;
   font-style: normal;
+  transition: 0.2s;
 }
 
 .tel {
@@ -133,6 +136,7 @@ ol {
   color: #757575;
   text-decoration: none;
   font-style: normal;
+  transition: 0.2s;
 }
 
 .tel,
@@ -140,17 +144,20 @@ ol {
   display: flex;
   align-items: center;
   gap: 8px;
+  transition: 0.2s;
 }
 
 .telTopSvg {
   transform: translateY(20%);
   margin-left: 30px;
   margin-right: 10px;
+  transition: 0.2s;
 }
 
 .eamiTopSvg {
   margin-left: 30px;
   margin-right: 10px;
+  transition: 0.2s;
 }
 
 .email-telAdress {
@@ -163,6 +170,7 @@ ol {
   font-style: normal;
   display: block;
   margin-bottom: 9px;
+  transition: 0.2s;
 }
 
 .top {
@@ -199,6 +207,7 @@ ol {
   height: 50px;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   margin-top: 40px;
+  transition: 0.2s;
 }
 
 .botoonIndex:hover {
@@ -279,6 +288,7 @@ ol {
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
   border-radius: 4px;
+  transition: 0.2s;
 }
 
 .buttons {
@@ -288,11 +298,6 @@ ol {
   align-items: center;
   gap: 12px;
   padding-top: 94px;
-}
-
-.fiveButtonOne:hover {
-  color: #ffffff;
-  background: #2196f3;
 }
 
 .fiveButton:hover {
@@ -438,7 +443,7 @@ ol {
   height: 404px;
   background: #ffffff;
   cursor: pointer;
-  border: 1px solid #eeeeee;
+  transition: 0.2s;
 }
 
 .box_description {
@@ -475,6 +480,7 @@ ol {
   padding-left: 24px;
   padding-top: 49px;
   padding-right: 45px;
+  transition: 0.2s;
 }
 
 .OnBoxTr:hover {
@@ -483,6 +489,7 @@ ol {
 
 .OnBoxTr {
   transition: transform 250ms ease;
+  transition: 0.2s;
 }
 
 .addresColor {
@@ -514,12 +521,9 @@ ol {
   margin-top: 16px;
 }
 
-.svgPoneH:hover {
-  fill: #ffffff;
-  background-color: #2196f3;
-}
 .svgcolorTop {
   fill: #afb1b8;
+  transition: 0.2s;
 }
 
 .svgcolorTop:hover {
@@ -528,6 +532,7 @@ ol {
 .svgcolor {
   fill: #afb1b8;
   cursor: pointer;
+  transition: 0.2s;
 }
 .svgcolor:hover {
   fill: #ffffff;
@@ -551,7 +556,9 @@ ol {
   border: 1px solid #afb1b8;
   border-radius: 4px;
   cursor: pointer;
+  transition: 0.2s;
 }
+
 .borderSvgSTreeIndex:hover {
   fill: #2196f3;
   border: 1px solid #2196f3;
@@ -586,6 +593,7 @@ ol {
   height: 44px;
   cursor: pointer;
   fill: #afb1b8;
+  transition: 0.2s;
 }
 
 .borderSvg:hover {
@@ -638,6 +646,7 @@ ol {
 
 .cyrcleColorAdress {
   fill: rgba(255, 255, 255, 0.1);
+  transition: 0.2s;
 }
 
 .cyrcleColorAdress:hover {
@@ -653,6 +662,7 @@ ol {
   fill: #ffffff;
   border-radius: 50%;
   cursor: pointer;
+  transition: 0.2s;
 }
 
 .borderSvgAdress:hover {
@@ -694,6 +704,8 @@ ol {
   position: absolute;
   top: 8px;
   right: 8px;
+  cursor: pointer;
+  transition: 0.2s;
 }
 
 .is-hidden {
@@ -715,4 +727,9 @@ ol {
   align-items: center;
   display: flex;
   z-index: 5;
+}
+
+.modal-content button:hover {
+  border: 1px solid #2196f3;
+  color: #2196f3;
 }
